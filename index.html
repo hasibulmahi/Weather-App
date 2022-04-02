@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App</title>
+
+    <!-- custom Css link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <main id="main" class="main">
+
+        <span class="color"></span>
+        <span class="color"></span>
+        <span class="color"></span>
+        <div class="weather_wraper">
+            <div class="search_container">
+                <form id="search_form">
+                    <label for="search_input">Search Weather By City:</label>
+                    <input type="text" id="search_input" placeholder="Enter A City Name Here">
+                </form>
+            </div>
+            <div class="weather_container">
+                <div class="date_icon">
+                    <div class="date">
+                        <!-- <h4>Friday 01 September 2030</h4> -->
+                    </div>
+                    <div class="img_box">
+                        <img src=""alt="">
+                        <h4 class="weather_conditon"></h4>
+                    </div>
+                </div>
+                <div class="weather_details">
+                    <h4>Todays Weather</h4>
+                    <h3>Dhaka/Asia</h3>
+                    <h4>Temperature: 25 &#176; C</h4>
+                    <h4>Humidity: 25%</h4>
+                    <h4>Wind Speed: 25 km/h</h4>
+                    <h4>Sunrise: 5555 pm</h4>
+                    <h4>Sunset: 5555 pm</h4>
+                </div>
+            </div>
+
+            <div class="future_forecast_container">
+                <div class="forecast_heading">
+                    <h2>Future Forecast For Next 5 Days</h2>
+                </div>
+                <div class="future_forecast">
+                    <!-- <div class="single_forecast">
+                    <h4>Fri</h4>
+                    <div class="img_box">
+                        <img src="" alt="">
+                    </div>
+                    <h4>Light Rain</h4>
+                    <h4>Day: 25 &#176; C</h4>
+                    <h4>Night: 25 &#176; C</h4>
+                </div> -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- moment js cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="js/apps.js"></script>
+</body>
+
+</html>
